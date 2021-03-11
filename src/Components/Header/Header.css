@@ -1,0 +1,13 @@
+.header{
+    background-image: url("https://i.pinimg.com/originals/14/05/9c/14059cabed5424a2eba4fd3d099ae543.jpg");
+    height: 800px;
+    background-position-x: center;
+}
+.header h1{
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 300px;
+}

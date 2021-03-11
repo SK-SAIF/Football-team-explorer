@@ -1,0 +1,56 @@
+.topBanner{
+    height: 600px;
+    background-image: url("https://i.pinimg.com/originals/fb/7c/a5/fb7ca57ba3427dd7259daf822349b752.png"); 
+    background-size: auto;
+    
+}
+.topBanner img{
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    margin-left: 40%;
+
+}
+.team-photo{
+    width: 50%;
+    color: ;
+}
+.team-photo img{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.team-info{
+    padding-top: 40px;
+    width: 50%;
+}
+.middle-part-team-details{
+    display: flex;
+
+}
+.team-info h1{
+    color: azure;
+    font-size: large;
+}
+.middle-part-team-details{
+    background-color: cadetblue;
+}
+.description-part{
+    color: gray;
+}
+.social-media-part{
+    text-align: center;
+    padding: 20px;
+}
+.each-social-link{
+    margin:20px;
+}
+.main-section{
+    border-left: 10px solid lightgray;
+    border-right: 10px solid lightgray;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}

@@ -1,0 +1,12 @@
+.Teams{
+    background-color: rgb(66, 10, 10);
+    height: 4000px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 150px;
+}
+.Teams h1{
+    color: cornsilk;
+}
