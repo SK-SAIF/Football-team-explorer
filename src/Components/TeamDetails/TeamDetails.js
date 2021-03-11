@@ -11,10 +11,8 @@ const TeamDetails = () => {
         fetch(url)
         .then(res=>res.json())
         .then(data=>setCount(data))
-    },[])
+    },[{teamId}])
     const value=Object.values(count);
-    // value.map(x=>console.log(x[0]));
-    
     return (
         <div className="team-details">
             {

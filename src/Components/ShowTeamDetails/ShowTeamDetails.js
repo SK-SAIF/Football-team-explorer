@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBuilding, faFlag, faGamepad, faMars, faRainbow } from '@fortawesome/free-solid-svg-icons';
 import './ShowTeamDetails.css';
@@ -7,7 +6,7 @@ import malePicture from '../../images/He.jpg';
 import femalePicture from '../../images/She.jpg';
 
 const ShowTeamDetails = (props) => {
-    const { strLeague, strTeam, strTeamBanner, intFormedYear, strSport, strCountry, strTeamLogo, strGender, strTeamBadge, strStadiumDescription, strDescriptionEN, strTeamFanart3, strTeamFanart1, strFacebook, strTwitter, strYoutube } = props.details;
+    const { strTeam, intFormedYear, strSport, strCountry, strGender, strTeamBadge, strStadiumDescription, strDescriptionEN, strTeamFanart3, strTeamFanart1, strFacebook, strTwitter, strYoutube } = props.details;
     let imageUrl;
     if (strGender == "Male") {
         imageUrl = malePicture;

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './TeamCard.css';
 import { Button, Card } from 'react-bootstrap';
-import TeamDetails from '../TeamDetails/TeamDetails';
 import { Link } from 'react-router-dom';
 
 
