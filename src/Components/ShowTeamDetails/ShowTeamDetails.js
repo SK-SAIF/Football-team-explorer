@@ -61,9 +61,9 @@ const ShowTeamDetails = (props) => {
                 </div>
 
                 <div className="social-media-part">
-                    <a target="_blank" className="each-social-link" href={strFacebook}><FontAwesomeIcon icon={['fab', 'facebook']} size="4x" /></a>
-                    <a target="_blank" className="each-social-link" href={strTwitter}><FontAwesomeIcon icon={['fab', 'twitter']} size="4x" /></a>
-                    <a target="_blank" className="each-social-link" href={strYoutube}><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" /></a>
+                    <a className="each-social-link" href={strFacebook}><FontAwesomeIcon icon={['fab', 'facebook']} size="4x" /></a>
+                    <a className="each-social-link" href={strTwitter}><FontAwesomeIcon icon={['fab', 'twitter']} size="4x" /></a>
+                    <a className="each-social-link" href={strYoutube}><FontAwesomeIcon icon={['fab', 'youtube']} size="4x" /></a>
                 </div>
             </div>
 

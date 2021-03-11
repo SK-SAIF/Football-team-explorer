@@ -5,14 +5,14 @@ import './TeamDetails.css';
 
 const TeamDetails = () => {
     let {teamId}=useParams();
-    const [count,setCount]=useState({});
+    const [teamData,setTeamData]=useState({});
     useEffect(()=>{
         let url=`https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${teamId}`;
         fetch(url)
         .then(res=>res.json())
-        .then(data=>setCount(data))
+        .then(data=>setTeamData(data))
     },[teamId])
-    const value=Object.values(count);
+    const value=Object.values(teamData);
     return (
         <div className="team-details">
             {
