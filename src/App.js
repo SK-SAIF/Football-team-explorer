@@ -24,9 +24,6 @@ function App() {
   return (
     <div>
       <Router>
-        {/* <Link to="/">Home</Link>
-        <Link to="/Header">Header</Link>
-        <Link to="/Teams">Teams</Link> */}
         <Switch>
           <Route exact path="/">
             <Home />

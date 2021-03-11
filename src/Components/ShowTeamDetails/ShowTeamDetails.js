@@ -18,12 +18,12 @@ const ShowTeamDetails = (props) => {
     return (
         <div>
             <div className="upper-section">
-                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src={strTeamFanart3} class="d-block w-100" alt="..."></img>
-                            <div class="carousel-caption d-none d-md-block">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img src={strTeamFanart3} className="d-block w-100" alt="..."></img>
+                            <div className="carousel-caption d-none d-md-block">
                                 <img style={{ width: "200px", height: "200px" }} src={strTeamBadge} alt="" />
                             </div>
                         </div>
