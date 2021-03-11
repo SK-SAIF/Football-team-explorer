@@ -6,9 +6,9 @@ import malePicture from '../../images/He.jpg';
 import femalePicture from '../../images/She.jpg';
 
 const ShowTeamDetails = (props) => {
-    const { strTeam, intFormedYear, strSport, strCountry, strGender, strTeamBadge, strStadiumDescription, strDescriptionEN, strTeamFanart3, strTeamFanart1, strFacebook, strTwitter, strYoutube } = props.details;
+    const { strTeam, intFormedYear, strSport, strCountry, strGender, strTeamBadge, strStadiumDescription, strDescriptionEN, strTeamFanart3, strFacebook, strTwitter, strYoutube } = props.details;
     let imageUrl;
-    if (strGender == "Male") {
+    if (strGender === "Male") {
         imageUrl = malePicture;
     }
     else{
